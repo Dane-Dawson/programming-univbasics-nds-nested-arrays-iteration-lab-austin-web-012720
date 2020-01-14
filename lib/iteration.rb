@@ -30,8 +30,8 @@ row_index = 0
 while row_index < src.count
     if src[row_index][0] % 2 == 0 and src[row_index][1] % 2 == 0 
         total += src[raw_index][0] + src[raw_index][1]
-      row_index += 1
   end
+        row_index += 1
 end
 total
 end

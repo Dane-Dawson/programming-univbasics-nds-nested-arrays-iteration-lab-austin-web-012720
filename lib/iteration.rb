@@ -5,6 +5,7 @@ def join_ingredients(src)
     pizza_array << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
       row_index += 1
   end
+  pizza_array
 end
 
 

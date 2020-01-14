@@ -16,10 +16,10 @@ while row_index < src.count
   element_index = 0
   inner_results = []
   while element_index < src[row_index].count
-    if src[raw_index][0] < src[raw_index][1]
-      inner_results.push src[raw_index][0]
+    if src[row_index][0] < src[row_index][1]
+      inner_results.push src[row_index][0]
     else 
-      inner_results.push src[raw_index][1]
+      inner_results.push src[row_index][1]
     end
     element_index += 1
   end

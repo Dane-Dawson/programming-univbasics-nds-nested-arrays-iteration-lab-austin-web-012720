@@ -32,6 +32,6 @@ while row_index < src.count
         total += src[raw_index][0] + src[raw_index][1]
       row_index += 1
   end
-      total
 end
+total
 end

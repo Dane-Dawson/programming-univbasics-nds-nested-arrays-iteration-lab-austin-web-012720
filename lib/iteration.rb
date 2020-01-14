@@ -38,3 +38,5 @@ while row_index < src.count
       row_index += 1
     total
   end
+end
+end
